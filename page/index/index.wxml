@@ -1,0 +1,27 @@
+
+<view class="screen">
+  <view class="screenz">
+     <view class="result">{{show}}</view>
+  </view>
+</view>
+<view class="container">
+ <view class="block" bindtap="clear"><view class="yuan" data-v="+" bindtap="seto">C</view></view>
+ <view class="block"><view class="yuan" data-v="+" bindtap="seto">+/-</view></view>
+ <view class="block" data-v="%" bindtap="seto"><view class="yuan" data-v="+" bindtap="seto">%</view></view>
+ <view class="block"><view class="yuan" data-v="+" bindtap="seto">+</view></view>
+ <view class="block"><view class="yuan" data-v="7" bindtap="setnum">7</view></view>
+ <view class="block"><view class="yuan" data-v="8" bindtap="setnum">8</view></view>
+ <view class="block"><view class="yuan" data-v="9" bindtap="setnum">9</view></view>
+ <view class="block"><view class="yuan" data-v="-" bindtap="seto">-</view></view>
+ <view class="block"><view class="yuan"  data-v="4" bindtap="setnum">4</view></view>
+ <view class="block"><view class="yuan" data-v="5" bindtap="setnum">5</view></view>
+ <view class="block"><view class="yuan"  data-v="6" bindtap="setnum">6</view></view>
+ <view class="block"><view class="yuan" data-v="*" bindtap="seto">*</view></view>
+ <view class="block"><view class="yuan"  data-v="1" bindtap="setnum">1</view></view>
+ <view class="block"><view class="yuan"  data-v="2" bindtap="setnum">2</view></view>
+ <view class="block"><view class="yuan" data-v="3" bindtap="setnum">3</view></view>
+ <view class="block"><view class="yuan"  data-v="/" bindtap="seto">/</view></view>
+ <view class="block"><view class="yuan" data-v="0" bindtap="setnum">0</view></view>
+ <view class="block"><view class="yuan"  data-v="." bindtap="setnum">.</view></view>
+ <view class="block kuan"><view class="tuoyuan" bindtap="cal">=</view></view>
+</view>

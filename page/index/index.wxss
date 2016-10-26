@@ -1,0 +1,73 @@
+.screen{
+ height:220rpx;
+ border:10rpx solid #fff;
+ background:#ffffff;
+ font-size:90rpx;
+ color:#ffffff;
+ position:relative;
+}
+.screenz{
+  height:155rpx;
+  border-radius:13rpx;
+  border-top:15rpx solid #222121;
+  border-right:15rpx solid #222121;
+  border-left:15rpx solid #222121;
+  border-bottom:30rpx solid #222121;
+  background:#ccffff;
+  box-shadow:4px 4px 4px 4px #f7f4f4;
+}
+.result{
+  position:absolute;
+  bottom:30rpx;
+  right:30rpx;
+}
+ .container::after{
+   content:'';
+   clear:both;
+   display:block;
+ }
+ .block{
+     width:25%;
+     height:175.5rpx;
+     float:left;
+     box-sizing:border-box;
+     position:relative;
+ }
+ .block .yuan{
+    width:120rpx;
+    height:120rpx;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    border:1rpx solid #ccc;
+    background:#fff;
+    border-radius:50%;
+    text-align:center;
+    line-height:120rpx;
+    font-size:60rpx;
+    box-shadow:2px 2px 2px 2px #f7f4f4;
+    cursor: pointer;
+ }
+ .block .tuoyuan{
+      width:300rpx;
+      border-radius:60rpx;
+      background:#019201;
+      height:120rpx;
+       position:absolute;
+      top:0;
+      right:0;
+      bottom:0;
+      left:0;
+      margin:auto;
+      text-align:center;
+      line-height:120rpx;
+      font-size:60rpx;
+      border:1rpx solid #ccc;
+       box-shadow:2px 2px 2px 2px #f7f4f4;
+   }
+.kuan{
+   width:50%;
+ }
